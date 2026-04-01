@@ -5472,7 +5472,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C130719"
 			(at 104.14 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7792,7 +7792,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12624"
+		(property "LCSC" "C74338"
 			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7974,7 +7974,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C453521"
+		(property "LCSC" "C67014"
 			(at 40.64 121.92 0)
 			(hide yes)
 			(show_name no)

@@ -94,6 +94,13 @@ Maybe time to experiment with having a boardhouse stuff the board!  I'm thinking
 - R7: wrong part, need 1.18k -> C3016052
 - R8: wrong part, need 1.13k -> C453521
 
+## JLPCB substitutions (2)
+
+Gah, LED footprints are 0402 but the LCSC part numbers are for 0603!
+
+- D1: (RED) -> C130719
+- D2: (GREEN) -> C74338
+- R8: was C453521 but JLPCB no-stocky, switching forC67014
 
 
 
