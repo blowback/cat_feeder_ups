@@ -83,4 +83,18 @@ After many, many false starts:
  Those packages are all quite fiddly, and we'll prolly have to go to 0402 for the discretes. 
 Maybe time to experiment with having a boardhouse stuff the board!  I'm thinking JLCB...
 
+## JLPCB substitutions
+
+- L1: was C408536 now C695604
+- U2: was unspecified! now C140287 (has no SYSOFF pin, but is same package with a NC pad so no schematic/pcb change)
+- J1: was C173752 - shouldn't be in BOM (is thru-hole)
+- D2: was C2286 (RED) but we want GREEN so -> C12624
+- R4, R6: wrong part, need 1.5k 0402 -> C114759
+- R5: wrong part, need 10k 0402 -> C60490
+- R7: wrong part, need 1.18k -> C3016052
+- R8: wrong part, need 1.13k -> C453521
+
+
+
+
 

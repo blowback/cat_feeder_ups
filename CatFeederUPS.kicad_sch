@@ -4826,7 +4826,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C114759"
 			(at 119.38 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5256,7 +5256,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5304,17 +5304,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 41.91 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C173752"
 			(at 41.91 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5588,6 +5577,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C140287"
+			(at 57.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "419dbd84-32a3-4191-86b0-9e0c1aa718f7")
 		)
@@ -5794,7 +5794,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C60490"
 			(at 92.71 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5827,7 +5827,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6540,7 +6540,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C408536"
+		(property "LCSC" "C695604"
 			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6844,7 +6844,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7063,7 +7063,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C3016052"
 			(at 29.21 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7623,7 +7623,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C114759"
 			(at 104.14 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7792,7 +7792,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C12624"
 			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7974,7 +7974,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C453521"
 			(at 40.64 121.92 0)
 			(hide yes)
 			(show_name no)
