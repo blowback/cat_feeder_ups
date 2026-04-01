@@ -2,3 +2,4 @@
 CatFeederUPS-backups/
 fp-lib-table
 sym-lib-table
+*.lck

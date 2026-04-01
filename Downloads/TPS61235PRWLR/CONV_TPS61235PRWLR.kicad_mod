@@ -149,14 +149,6 @@
   (fp_line (start 1.25 -1.25) (end 1.25 1.25) (layer F.Fab) (width 0.127))
   (fp_line (start 1.25 1.25) (end -1.25 1.25) (layer F.Fab) (width 0.127))
   (fp_line (start -1.25 1.25) (end -1.25 -1.25) (layer F.Fab) (width 0.127))
-  (fp_poly
-    (pts
-      (xy -0.558849 0.04)
-      (xy 0.5575 0.04)
-      (xy 0.5575 0.200484)
-      (xy -0.558849 0.200484)
-    ) (layer F.Cu) (width 0.01)
-  )
   (fp_line (start 1.25 0.88) (end 1.25 1.25) (layer F.SilkS) (width 0.127))
   (fp_line (start 1.25 1.25) (end 1.13 1.25) (layer F.SilkS) (width 0.127))
   (fp_line (start -1.13 1.25) (end -1.25 1.25) (layer F.SilkS) (width 0.127))

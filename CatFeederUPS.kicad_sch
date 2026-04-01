@@ -3726,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 48.26) (xy 62.23 52.07)
+			(xy 142.24 50.8) (xy 142.24 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3803,6 +3803,16 @@
 			(type default)
 		)
 		(uuid "1e7ffd87-01e0-4c51-a76f-81b7bf0c919c")
+	)
+	(wire
+		(pts
+			(xy 152.4 39.37) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efb0470-c55f-4e26-837f-6ff32a663693")
 	)
 	(wire
 		(pts
@@ -3906,7 +3916,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 36.83) (xy 62.23 40.64)
+			(xy 142.24 39.37) (xy 142.24 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4226,6 +4236,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 50.8) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd854fe7-43c1-4321-90a5-321eb7538ce0")
+	)
+	(wire
+		(pts
 			(xy 69.85 115.57) (xy 104.14 115.57)
 		)
 		(stroke
@@ -4433,6 +4453,84 @@
 			(justify left bottom)
 		)
 		(uuid "d9c967eb-4ff2-49d9-aea1-57f3eae12924")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "017d9738-887f-49a1-b70f-6c8ea9246d85")
+		(property "Reference" "#PWR07"
+			(at 152.4 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16f29c24-ebc7-4c8e-bfb0-f9b0e3b1a33c")
+		)
+		(instances
+			(project "CatFeederUPS"
+				(path "/1de51608-3e8f-43c0-89ce-f38404b493a1"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4756,7 +4854,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 44.45 0)
+		(at 142.24 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4766,7 +4864,7 @@
 		(dnp no)
 		(uuid "0cbf87f1-25d1-43c8-9468-5949d355bc2b")
 		(property "Reference" "C1"
-			(at 64.008 42.672 0)
+			(at 144.018 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4777,7 +4875,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 64.008 46.228 0)
+			(at 144.018 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4788,7 +4886,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 62.23 44.45 0)
+			(at 142.24 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,7 +4897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 44.45 0)
+			(at 142.24 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,7 +4908,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 44.45 0)
+			(at 142.24 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,7 +4919,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 62.23 44.45 0)
+			(at 142.24 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4832,7 +4930,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 62.23 44.45 0)
+			(at 142.24 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,7 +4941,7 @@
 			)
 		)
 		(property "LCSC" "C15525"
-			(at 62.23 44.45 0)
+			(at 142.24 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4854,7 +4952,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 62.23 44.45 0)
+			(at 142.24 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6470,7 +6568,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 52.07 0)
+		(at 142.24 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6481,7 +6579,7 @@
 		(fields_autoplaced yes)
 		(uuid "adba367d-b4cc-4e11-9e7f-a678a3ae1e05")
 		(property "Reference" "#PWR04"
-			(at 62.23 58.42 0)
+			(at 142.24 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6492,7 +6590,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 57.15 0)
+			(at 142.24 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6502,7 +6600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 52.07 0)
+			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +6611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 52.07 0)
+			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6524,7 +6622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 52.07 0)
+			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,6 +7090,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 152.4 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1960c4-f273-499e-89dd-28018f40e080")
+		(property "Reference" "#PWR06"
+			(at 152.4 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 152.4 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 152.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65a1282e-64c9-43db-859d-300797d08d94")
+		)
+		(instances
+			(project "CatFeederUPS"
+				(path "/1de51608-3e8f-43c0-89ce-f38404b493a1"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TPS61235P:TPS61235PRWLR")
 		(at 193.04 105.41 0)
 		(unit 1)
@@ -7251,6 +7427,131 @@
 			(project "CatFeederUPS"
 				(path "/1de51608-3e8f-43c0-89ce-f38404b493a1"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1ad9022-1a9b-4b95-91d4-da97bfe6cb63")
+		(property "Reference" "C6"
+			(at 154.178 45.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 154.178 48.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 152.4 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 152.4 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 152.4 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 152.4 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 152.4 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "85bdd246-020b-4ae1-96b1-2414ffee3eec")
+		)
+		(pin "1"
+			(uuid "a4613cd2-95dd-4ebe-b4f0-66340ff66038")
+		)
+		(instances
+			(project "CatFeederUPS"
+				(path "/1de51608-3e8f-43c0-89ce-f38404b493a1"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7530,7 +7831,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 62.23 36.83 0)
+		(at 142.24 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7541,7 +7842,7 @@
 		(fields_autoplaced yes)
 		(uuid "f67a0c45-9944-495a-b07b-e22646eb57d3")
 		(property "Reference" "#PWR03"
-			(at 62.23 40.64 0)
+			(at 142.24 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,7 +7853,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 62.23 31.75 0)
+			(at 142.24 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7562,7 +7863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 36.83 0)
+			(at 142.24 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7573,7 +7874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 36.83 0)
+			(at 142.24 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7584,7 +7885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 62.23 36.83 0)
+			(at 142.24 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
