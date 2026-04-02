@@ -1,5 +1,8 @@
 # UPS for SureFeed Microchip Pet Feeder Connect
 
+![cat feeder PCB front](images/CatFeederUPS.png)
+![cat feeder PCB back](images/CatFeederUPS_bot.png)
+
 The feeder takes 4 'C' cell batteries. I have 7 feeders. Alkaline batteries 
 get expensive real fast and murder the planet, and NiMH cells take an age to 
 charge - you spend your whole life swapping batteries in and out of the charger.
